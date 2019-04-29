@@ -1,0 +1,44 @@
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+
+}
+header{
+    padding:20px;
+    background-color: darkcyan;
+    width: 60px;
+}
+
+main{
+    padding:20px;
+    background-color: darkmagenta;
+    flex-grow: 1;
+    height: 50px;
+}
+aside{
+    padding:20px;
+    background-color: lightsalmon;
+    flex-grow: 1;
+    height: 50px;
+}
+.half aside:nth-child(1){
+    background-color: lightgray;
+    height: 250px;
+}
+.half aside:nth-child(2){
+    background-color: rgb(119, 119, 119);
+    height: 250px;
+}
+footer{
+    padding:20px;
+    background-color: aquamarine;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}

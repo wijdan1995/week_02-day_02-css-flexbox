@@ -1,0 +1,28 @@
+header{
+    padding:20px;
+    background-color: darkcyan;
+}
+main{
+    padding:20px;
+    background-color: darkmagenta;
+    flex-grow: 3;
+    height: 250px;
+}
+aside{
+    padding:20px;
+    background-color: lightsalmon;
+    flex-grow: 1;
+    height: 250px;
+}
+footer{
+    padding:20px;
+    background-color: aquamarine;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
